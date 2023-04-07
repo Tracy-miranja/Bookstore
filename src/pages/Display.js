@@ -33,7 +33,10 @@ function Display(){
               <button>Edit</button>
              </div>
              <div>
-              <div><h1>64% completed</h1></div>
+              <div>
+              <span className="sr-only"></span>
+                <h1>64% completed</h1>
+              </div>
               <div>
                 <h3>CURRENT CHAPTER</h3>
                 <h2>CHAPTER 17</h2>
