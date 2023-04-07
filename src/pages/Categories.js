@@ -1,5 +1,12 @@
+import Link from "next/link";
+import Nav from "./Navigation";
+
 function Categories() {
-    return<h1>Categories page</h1>
+    return(
+        <>
+        <Nav />
+        </>
+    )
 }
 
 export default Categories;
